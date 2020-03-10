@@ -7,6 +7,7 @@ public class User {
     private String name;
 	private String promena;
 
+
     public User(String email, String pwd) {
         this.email = email;
         this.pwd = pwd;
