@@ -13,8 +13,7 @@ public class RegisterForm {
     private JTextField email;
     private JPasswordField pwd;
     private JPasswordField checkPwd;
-    private JButton register;
-    private JButton printRegisteredUsersButton;
+
 
     public RegisterForm() {
         register.addActionListener(new ActionListener() {
