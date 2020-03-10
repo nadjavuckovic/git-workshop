@@ -15,6 +15,7 @@ public class RegisterForm {
     private JPasswordField checkPwd;
     private JButton register;
     private JButton printRegisteredUsersButton;
+	private String promena;
 
     public RegisterForm() {
         register.addActionListener(new ActionListener() {
